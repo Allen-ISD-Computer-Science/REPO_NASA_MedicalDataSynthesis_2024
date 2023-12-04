@@ -10,4 +10,4 @@ Our project aims to revolutionize healthcare by harnessing the power of AI to sy
 - QA Analyst: Sophie Hews - [@SophieH8](https://github.com/SophieH8) [Digital Portfolio](https://codermerlin.academy/users/sophie-hews/Digital%20Portfolio/index.html)
 - Release Manager: Zoe Yau -[@zoe-yau](https://github.com/zoe-yau) [Digital Portfolio](https://codermerlin.academy/users/zoe-yau/Digital%20Portfolio/index.html)
 - UI/UX Designer: Kripa Tailor - [@kripatailor](https://github.com/kripatailor) [Digital Portfolio](https://codermerlin.academy/users/kripa-tailor/Digital%20Portfolio/index.html)
-
+- Engineer-Frontend (Lead): Sophia Tran - [@sophiaptran](https://github.com/sophiaptran) [Digital Portfolio](https://codermerlin.academy/users/sophia-tran/Digital%20Portfolio/index.html)   
