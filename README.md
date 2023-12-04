@@ -9,5 +9,5 @@ Our project aims to revolutionize healthcare by harnessing the power of AI to sy
 - Product Manager: Jana Daouk - @jana-daouk
 - QA Analyst: Sophie Hews - [@SophieH8](https://github.com/SophieH8) [Digital Portfolio](https://codermerlin.academy/users/sophie-hews/Digital%20Portfolio/index.html)
 - Release Manager: Zoe Yau -
-- UI/UX Designer: Kripa Tailor -
+- UI/UX Designer: Kripa Tailor - [@kripatailor](https://github.com/kripatailor) [Digital Portfolio](https://codermerlin.academy/users/kripa-tailor/Digital%20Portfolio/index.html)
 
