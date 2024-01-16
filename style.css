@@ -1,4 +1,6 @@
-body {font-family: Arial;}
+body {font-family: Arial;
+  background-color: #F9EFDB;
+}
 
 /* Style the tab */
 .tab {
