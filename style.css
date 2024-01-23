@@ -6,22 +6,24 @@ body {font-family: Arial;
 
 /* Style the tab */
 .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
   float: left;
   background-color: #f1f1f1;
-  border: 1px solid #ccc;
   width: 30%;
   height: 300px;
 }
 
-
 /* Style the buttons inside the tab */
 .tab button {
   background-color: inherit;
+  float: left;
   display: block;
   border: none;
   color: black;
   outline: none;
   cursor: pointer;
+  padding: 14px 16px;
   text-align: left;
   padding: 22px 16px;
   width: 100%;
@@ -41,25 +43,27 @@ body {font-family: Arial;
 
 /* Style the tab content */
 .tabcontent {
+  display: none;
   float: left;
   padding: 6px 12px;
-  border: 1px solid #ccc;
-<<<<<<< HEAD
+  border-top: none;
   width: 70%;
   border-left: none;
   height: 300px;
 }
-=======
-  border-top: none;
-}
 
 input[type=text], select {
-  width: 100%;
-  padding: 50px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc; 
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
->>>>>>> c0822cd (Added to the chat box)
+
+
