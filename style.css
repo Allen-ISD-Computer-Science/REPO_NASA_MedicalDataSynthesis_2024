@@ -44,7 +44,22 @@ body {font-family: Arial;
   float: left;
   padding: 6px 12px;
   border: 1px solid #ccc;
+<<<<<<< HEAD
   width: 70%;
   border-left: none;
   height: 300px;
 }
+=======
+  border-top: none;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 50px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+>>>>>>> c0822cd (Added to the chat box)
