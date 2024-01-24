@@ -46,4 +46,16 @@ body {font-family: Arial;
   .sidenav a {font-size: 18px;}
 }
 
+input[type=text], select {
+  width: 100%;
+  padding: 50px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
 
