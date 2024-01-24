@@ -5,31 +5,7 @@ body {font-family: Arial;
   background-color: #F9EFDB;
 }
 
-<<<<<<< Updated upstream
 /* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  float: left;
-  background-color: #f1f1f1;
-  width: 30%;
-  height: 300px;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  display: block;
-  border: none;
-  color: black;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  text-align: left;
-  padding: 22px 16px;
-  width: 100%;
-=======
 
 .sidenav {
   height: 100%;
@@ -50,7 +26,6 @@ body {font-family: Arial;
   font-size: 25px;
   color: #818181;
   display: block;
->>>>>>> Stashed changes
   transition: 0.3s;
 }
 
@@ -66,39 +41,9 @@ body {font-family: Arial;
   margin-left: 50px;
 }
 
-<<<<<<< Updated upstream
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  float: left;
-  padding: 6px 12px;
-  border-top: none;
-  width: 70%;
-  border-left: none;
-  height: 300px;
-}
-
-input[type=text], select {
-    width: 100%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc; 
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-}
-
-
-=======
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
 
 
-
->>>>>>> Stashed changes
