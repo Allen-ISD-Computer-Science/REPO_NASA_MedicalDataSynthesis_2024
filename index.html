@@ -11,52 +11,37 @@
 
 <h2> Heading </h2>
 
-<!-- Class related to the page tabs-->
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'tabOne')">tab one</button>
-  <button class="tablinks" onclick="openTab(event, 'tabTwo')">tab two</button>
-  <button class="tablinks" onclick="openTab(event, 'tabThree')">tab three</button>
-</div>
 
-<div id="tabOne" class="tabcontent">
-  <h3>tab one</h3>
-  <p>this is tab one</p>
-</div>
-
-<div id="tabTwo" class="tabcontent">
-  <h3>tab two</h3>
-  <p>this is tab two</p> 
-</div>
-
-<div id="tabThree" class="tabcontent">
-  <h3>tab three</h3>
-  <p>this is tab three</p>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> </a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
 </div>
 
 <form action="">
   <input type="text" id="chatBox" name="chatBox" placeholder="type here">
 </form>
 
-<!--Script for clicking on the tabs-->
-<script>
 
-function openTab(evt, Tab) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(Tab).style.display = "block";
-  evt.currentTarget.className += " active";
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()"> open</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
 }
 
+<<<<<<< Updated upstream
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
   
+=======
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+>>>>>>> Stashed changes
 </script>
   
    

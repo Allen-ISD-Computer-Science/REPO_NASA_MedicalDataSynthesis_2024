@@ -1,9 +1,11 @@
+
 /* Style the page background */
 
 body {font-family: Arial;
   background-color: #F9EFDB;
 }
 
+<<<<<<< Updated upstream
 /* Style the tab */
 .tab {
   overflow: hidden;
@@ -27,20 +29,44 @@ body {font-family: Arial;
   text-align: left;
   padding: 22px 16px;
   width: 100%;
+=======
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+>>>>>>> Stashed changes
   transition: 0.3s;
-  font-size: 17px;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
+.sidenav a:hover {
+  color: #f1f1f1;
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
+<<<<<<< Updated upstream
 /* Style the tab content */
 .tabcontent {
   display: none;
@@ -67,3 +93,12 @@ input[type=text], select {
 }
 
 
+=======
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+>>>>>>> Stashed changes
