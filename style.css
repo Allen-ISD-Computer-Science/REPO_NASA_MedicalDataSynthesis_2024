@@ -2,7 +2,7 @@
 /* Style the page background */
 
 body {font-family: Arial;
-  background-color: #FAEED1;
+  background-color: #F4EAE0;
 }
 
 /* Style the tab */
@@ -14,7 +14,7 @@ body {font-family: Arial;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #561C24;
+  background-color: #8EACCD;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -24,7 +24,7 @@ body {font-family: Arial;
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #F4EAE0;
+  color: #ffffff;
   display: block;
   transition: 0.3s;
 }
