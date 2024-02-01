@@ -15,7 +15,6 @@ body {font-family: Arial;
   top: 0;
   left: 0;
   background-color: #561C24;
-  background-color: ;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -45,18 +44,5 @@ body {font-family: Arial;
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
-
-input[type=text], select {
-  width: 100%;
-  padding: 50px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  position: fixed;
-  bottom: 0;
-  left: 0;
 }
 
