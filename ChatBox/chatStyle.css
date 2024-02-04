@@ -52,7 +52,6 @@ body {
     display: flex;
     cursor: pointer;
     align-items: center;
-    background: red;
     justify-content: center;
     border-radius: 50%;
     background: #8EACCD;
@@ -214,7 +213,7 @@ header h2 {
 
 .chat-input span {
     align-self: flex-end;
-    color: #561C24;
+    color: #8EACCD;
     cursor: pointer;
     height: 55px;
     display: flex;
