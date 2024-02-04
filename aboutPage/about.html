@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> About </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="aboutStyle.css">
+
+</head>
+
+<body>
+
+<!-- Sidebar/menu -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> <img src="../Pictures/ExitIcon.png" width="20" height="20"> </a>
+  <a href="../index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="../ChatBox/chatBox.html">Chat Box</a>
+  <a href="../ContactPage/contact.html">Contact</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()"> <img src="../Pictures/SideBarIcon.png" width="50" height="50"> </span>
+
+<!-- !PAGE CONTENT! -->
+<div class="content">
+
+  <!-- Header -->
+  <div class="header" id="top">
+    <h1 class="title"><b>About</b></h1>
+    <h1 class="subtitle"><b>Us</b></h1>
+    <hr class="lines">
+  </div>
+  
+  <!-- Introduction -->
+  <div class="container" id="intro" >
+    <h1 class="subject"><b>Introduction</b></h1>
+    <hr class="lines">
+    <p>Some Text here</p>
+    <p>Words...
+    </p>
+  </div>
+
+  <!-- Goal Section -->
+  <div class="container" id="goal">
+    <h1 class="subject"><b>Our Goal</b></h1>
+    <hr class="lines">
+    <p>Some Text here</p>
+    <p>Words...
+    </p>
+  </div>
+  
+  <!-- Use section -->
+  <div class="container" id="use">
+    <h1 class="subject"><b>How to Use </b></h1>
+    <hr class="lines">
+    <p>Some Text here</p>
+    <p>Words...
+    </p>
+  </div>
+
+  <!-- Works section -->
+  <div class="container" id="work">
+    <h1 class="subject"><b>How it Works</b></h1>
+    <hr class="lines">
+    <p>Some Text here</p>
+    <p>Words...
+    </p>
+  </div>
+
+</div>
+
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+</body>
+</html>
