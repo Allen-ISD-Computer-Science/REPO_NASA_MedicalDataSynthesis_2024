@@ -18,4 +18,3 @@ print(completion)
 #        print(chunk.choices[0].delta.content, end="\n")
 #        out = open("output.txt","a")
       
-
