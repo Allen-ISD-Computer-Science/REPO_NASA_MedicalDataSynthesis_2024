@@ -1,6 +1,8 @@
 body {
   font-size:16px;
+  line-height: 1.8;
   background-color: #F4EAE0;
+  padding-right: 275px;
 }
 
 .sidenav {
