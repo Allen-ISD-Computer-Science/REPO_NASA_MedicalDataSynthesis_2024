@@ -1,6 +1,5 @@
 
 /* Style the page background */
-
 body {
   font-family: Arial;
   background-color: #F4EAE0;
@@ -16,7 +15,7 @@ body {
   padding: 20px;
 }
 
-/*split screen*/
+/* split screen */
 .split {
   height: 100%;
   width: 50%;
@@ -41,10 +40,9 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px
-  /*background-color: white;*/
 }
 
-/* Style the tab */
+/* Style for tab */
 .sidenav {
   height: 100%;
   width: 0;
@@ -112,6 +110,7 @@ h1 {
   text-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
+/* fun text concepts */
 .concept {
   position: relative;
   padding: 5em;
@@ -137,17 +136,17 @@ h1 {
 .concept-one {
   display: grid;
   grid: repeat(3, 1fr)/ repeat(3, 1fr);
-  background: yellow;
   padding: 8em;
-  background: url("Pictures/dna.jpg")
-    no-repeat center center / cover;
   h1 {
-    position: absolute;
+    position: fixed;
+    text-align: left;
     margin: auto;
     left: 0;
     right: 0;
+    padding-left: 51%;
+    padding-top: 220px;
     top: 50%;
-    margin-top: -30px;
+    margin-top: -300px;
     transition: 0.5s ease;
     z-index: 0;
     letter-spacing: 25px;
@@ -498,3 +497,4 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
