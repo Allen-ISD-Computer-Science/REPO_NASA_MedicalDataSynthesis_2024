@@ -1,6 +1,8 @@
 # Gemma
 
-### Link 
+### Helpful Links
+https://ai.google.dev/gemma/docs/setup
+https://ai.google.dev/gemma/docs/get_started
 https://huggingface.co/google/gemma-2b
 
 ### Description
