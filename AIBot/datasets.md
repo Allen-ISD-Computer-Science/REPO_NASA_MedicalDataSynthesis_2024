@@ -12,6 +12,10 @@
 ### Cardio
 * https://www.kaggle.com/datasets/mdshamimrahman/cardio-data-set
 * https://www.kaggle.com/datasets/mirzahasnine/heart-disease-dataset
+* https://www.kaggle.com/datasets/utkarshx27/heart-disease-diagnosis-dataset 
 
 ### Skin Diseases
 * https://www.kaggle.com/datasets/haroonalam16/20-skin-diseases-dataset?select=Dataset 
+
+### A list of Diseases and Symptoms
+* https://www.kaggle.com/datasets/choongqianzheng/disease-and-symptoms-dataset 
