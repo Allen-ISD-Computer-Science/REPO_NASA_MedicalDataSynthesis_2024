@@ -80,9 +80,9 @@ body.show-chatbot .chatbot-toggler span:last-child {
 
 .chatbot {
     position: fixed;
-    right: 50px;
+    right: 30px;
     bottom: 90px;
-    width: 800px;
+    width: 880px;
     background: #fff;
     border-radius: 15px;
     overflow: hidden;
