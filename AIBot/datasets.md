@@ -25,5 +25,4 @@
 * https://www.kaggle.com/datasets/akshatshaw7/cardiovascular-disease-dataset
 * https://www.kaggle.com/datasets/christofel04/cardiovascular-study-dataset-predict-heart-disea?select=train.csv
 * https://www.kaggle.com/datasets/aiaiaidavid/cardio-data-dv13032020
-* https://www.kaggle.com/datasets/thedevastator/exploring-risk-factors-for-cardiovascular-disease
-* https://www.kaggle.com/datasets/utkarshx27/heart-disease-diagnosis-dataset 
+
