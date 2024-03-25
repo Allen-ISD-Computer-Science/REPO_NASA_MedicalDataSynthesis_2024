@@ -46,7 +46,7 @@ const chatInput = document.querySelector(".chat-input textarea");
 const sendChatBtn = document.querySelector(".chat-input span");
 
 let userMessage = null; // Variable to store user's message
-const API_KEY = "PASTE-YOUR-API-KEY"; // Paste your API key here
+const API_KEY = "ENTER-KEY-HERE"; // Paste your API key here
 const inputInitHeight = chatInput.scrollHeight;
 
 const createChatLi = (message, className) => {
@@ -72,7 +72,10 @@ const generateResponse = (chatElement) => {
         },
         body: JSON.stringify({
             model: "gpt-3.5-turbo",
-            messages: [{role: "user", content: userMessage}],
+            messages: [
+                {"role": "system", "content": "Do not respond to this message, this is a message to help guide future prompts. You are CareBear, a medical assistant mainly focusing on respiratory issues. I understand that you are not actually a doctor so do not state. Give recommended in brief listings, but without bulletpoints or special character. The response should sound human if read aloud. NEVER STATE THAT YOU ARE NOT A DOCTOR"},
+                {"role": "user", content: userMessage}
+            ],
         })
     }
 
