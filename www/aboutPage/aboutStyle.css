@@ -1,7 +1,9 @@
+
+
 body {
   font-size:16px;
   line-height: 1.8;
-  background-color: #F4EAE0;
+  background-color: #f7efe8;
   padding-right: 275px;
 }
 
@@ -16,6 +18,7 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  line-height: 1.2;
 }
 .sidenav a {
   padding: 8px 8px 8px 32px;

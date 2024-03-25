@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 body {
-    background: #F4EAE0;
+    background: #f7efe8;
 }
 
 .sidenav {
@@ -80,9 +80,9 @@ body.show-chatbot .chatbot-toggler span:last-child {
 
 .chatbot {
     position: fixed;
-    right: 55px;
+    right: 30px;
     bottom: 90px;
-    width: 920px;
+    width: 880px;
     background: #fff;
     border-radius: 15px;
     overflow: hidden;

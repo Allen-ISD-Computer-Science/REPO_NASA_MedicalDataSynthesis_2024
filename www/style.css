@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   font-family: 'Playfair Display', serif;
-  
+}
+body {
+  background: #f7efe8;
 }
 
 .header{
@@ -76,7 +78,7 @@
 .text-box p{
   margin: 10px 0 40px;
   font-size: 14px;
-  color: #fff;
+  color: #ffffff;
   transition: 0.5s;
 }
 
@@ -96,7 +98,7 @@
 footer {
   text-align: center;
   font-weight: 500;
-  background-color: #F4EAE0;
+  background-color: rgba(142, 172, 205, 0.7);
   padding: 5px;
   padding-top: 20px;
   padding-bottom: 20px;
