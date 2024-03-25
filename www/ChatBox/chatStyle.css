@@ -171,7 +171,7 @@ header h2 {
     max-width: 75%;
     color: #fff;
     font-size: 0.95rem;
-    background: #561C24;
+    background: #8EACCD;
 }
 
 .chatbox .incoming p {
@@ -179,7 +179,7 @@ header h2 {
 }
 
 .chatbox .chat p.error {
-    color: #721c24;
+    color: #8EACCD;
     background: #f8d7da;
 }
 
