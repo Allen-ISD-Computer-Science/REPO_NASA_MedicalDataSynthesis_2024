@@ -1,3 +1,4 @@
+# Library imports 
 import sounddevice as sd
 from scipy.io.wavfile import write
 import speech_recognition as sr
@@ -7,6 +8,7 @@ import pyttsx3
 import time
 import pygame
 
+#F unction to play an audio file
 def play_audio_file(file_path):
     pygame.init()
     pygame.mixer.init()
@@ -23,6 +25,7 @@ def play_audio_file(file_path):
 
     pygame.quit()
 
+# Function to convert text to speech and save it as an audio file
 def text_to_speech(text, output_file):
     # Initialize the text-to-speech engine
     engine = pyttsx3.init()
@@ -41,15 +44,18 @@ def text_to_speech(text, output_file):
     engine.runAndWait()
 
 
-
+# Introduction text 
 intro = "Hello I am Care Bear, the medical assistant. What are the symptoms you have been experiencing?"
 
+# Converts introduction text to speech and save it as an audio file 
 text_to_speech(intro, 'intro.wav')
 
+# Plays the introduction audio
 play_audio_file('intro.wav')
 
-fs=44100
-seconds=5
+# Recording audio from the user
+fs=44100 # Sample Rate
+seconds=5 # Duration of recording
 print('recording\n')
 record_voice=sd.rec(fs*seconds,samplerate=fs,channels=2,dtype='int16')
 sd.wait()
@@ -75,11 +81,12 @@ except sr.RequestError as e:
 
 print("You said: " + user_words)
 
+# Open AI Setup
 client = OpenAI(
     api_key=open("./nothin/chatKEY.txt","r").read().strip('\n')
     )
 
-
+# Generates responses using Open AI
 completion = client.chat.completions.create(
     model="gpt-3.5-turbo",
     messages=[
@@ -88,15 +95,19 @@ completion = client.chat.completions.create(
         ]
 )
 
-#print(completion)
+# print(completion)
 
+# Extrats response
 response = completion.choices[0].message.content
 
+# aves response to a file
 with open('chatgpt_words.txt', 'a') as file:
     file.write(response + "\n")
 
 print(response)
 
+# Convert the response to speech and save it as an audio file
 text_to_speech(response, 'output.wav')
 
+# Plays response audio
 play_audio_file('output.wav')    
