@@ -1,5 +1,5 @@
 #This file will be used to filter symptoms out of user responses 
-=======
+
 def find_matching_word(input_string, word_list):
     for word in word_list:
         if word in input_string:
@@ -13,3 +13,4 @@ if matching_word:
     print(f"The input string matches the word '{matching_word}'.")
 else:
     print("No match found.")
+    

@@ -2,61 +2,67 @@
 <html>
 
 <head>
+  <!-- Locks aspect ratio -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Link to external sheet -->
   <link rel="stylesheet" href="contactStyle.css">
-
-
+  
 </head>
 
 <body>
+  <!-- Sidebar/menu -->
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> <img src="../Pictures/ExitIcon.png" width="20"
-        height="20"> </a>
-    <a href="../index.html">Home</a>
-    <a href="../aboutPage/about.html">About</a>
-    <a href="../ChatBox/chatBox.html">Chat Box</a>
-    <a href="contact.html">Contact</a>
-  </div>
-
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()"> <img src="../Pictures/SideBarIcon.png" width="50"
+      height="20"> </a>
+      <a href="../index.html">Home</a>
+      <a href="../aboutPage/about.html">About</a>
+      <a href="../ChatBox/chatBox.html">Chat Box</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    
+    <!-- Sidebar/menu button -->
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()"> <img src="../Pictures/SideBarIcon.png" width="50"
       height="50"> </span>
-
-
-
-  <div class="container">
-    <div style="text-align:center">
-      <h2>Contact Us</h2>
-    </div>
-    <div class="row">
-      <div class="column">
-        <img src="../Pictures/CareBearLogo.png" style="width:100%">
+    
+      <!-- Contact form Container -->
+      <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+        </div>
+        <div class="row">
+          <!-- Logo Column -->
+          <div class="column">
+            <img src="../Pictures/CareBearLogo.png" style="width:100%">
+          </div>
+          <!-- Form Column -->
+          <div class="column">
+            <!-- Contact form -->
+            <form action="https://formsubmit.co/carebear.aid@gmail.com" method="POST">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="First Name">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Last Name">
+              <label for="eMail">Email</label>
+              <input type="text" id="eMail" name="email" placeholder="Email Address">
+              <label for="subject">Comment/Question/Concern</label>
+              <textarea id="subject" name="subject" placeholder="Message" style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
       </div>
-      <div class="column">
-        <form action="https://formsubmit.co/carebear.aid@gmail.com" method="POST">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="First Name">
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Last Name">
-          <label for="eMail">Email</label>
-          <input type="text" id="eMail" name="email" placeholder="Email Address">
-          <label for="subject">Comment/Question/Concern</label>
-          <textarea id="subject" name="subject" placeholder="Message" style="height:170px"></textarea>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-    }
-
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-    }
-  </script>
-
-</body>
-
-</html>
+      
+      <!-- Function for Sidebar/menu -->
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+      </script>
+      
+    </body>
+    
+    </html>
