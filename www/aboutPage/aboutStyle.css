@@ -5,6 +5,7 @@ body {
 
 }
 
+/* Style for the blue background */
 .blueBackground {
   padding-left: 100px;
   padding-top: 10px;
@@ -57,6 +58,7 @@ body {
   margin-top:80px;
 }
 
+/* Small Lines */
 .blueLines {
   width:50px;
   border:5px solid #8EACCD;
