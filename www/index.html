@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<script src="index.js" defer></script>
-
-<title>Index</title>
+    <!-- Lock aspect ratio -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Links to external sheets -->
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    
+    <!-- Title of page -->
+    <title>Index</title>
 </head>
 
 <body>
+    <!-- Header -->
     <section class="header">
         <div>
+            <!-- Navigation -->
             <nav>
+
+                <!-- Logo -->
                 <img src="Pictures/CareBearLogo.png" width="100" height="100" style="float:right"> </a>
                 
+                <!-- Sidebar button -->
                 <span style="font-size:30px;cursor:pointer" onclick="openNav()"> <img src="Pictures/SideBarIcon.png" width="50" height="50" style="float:left"> </span>
                 
+               <!-- Sidebar/menu -->
                 <div id="mySidenav" class="sidenav">
+                    <!-- Close button -->
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> <img src="Pictures/ExitIcon.png" width="20" height="20"> </a>
+                    <!-- Navigation links  -->
                     <a href="index.html">Home</a>
                     <a href="aboutPage/about.html">About</a>
                     <a href="ChatBox/chatBox.html">Chat Box</a>
@@ -25,27 +36,26 @@
                 </div>
                 
             </nav>
-
+            
             
             <!-- Automatic Slideshow Images -->
+            <div class="mySlides">
+                <img class="headerImage" src="IndexPictures/clipBoard.png">
+            </div>
+            <div class="mySlides">
+                <img class="headerImage" src="IndexPictures/steth.jpeg">
+            </div>
+            <div class="mySlides">
+                <img class="headerImage" src="IndexPictures/scrubs.png">
+            </div>
+            <div class="mySlides">
+                <img class="headerImage" src="IndexPictures/clipBoard.png">
+            </div>
+            <div class="mySlides">
+                <img class="headerImage" src="IndexPictures/laptop.png">
+            </div>
 
-                <div class="mySlides">
-                    <img class="headerImage" src="IndexPictures/clipBoard.png">
-
-                </div>
-                <div class="mySlides">
-                    <img class="headerImage" src="IndexPictures/steth.jpeg">
-
-                </div>
-                <div class="mySlides">
-                    <img class="headerImage" src="IndexPictures/scrubs.png">
-                </div>
-                <div class="mySlides">
-                    <img class="headerImage" src="IndexPictures/clipBoard.png">
-                </div>
-                <div class="mySlides">
-                    <img class="headerImage" src="IndexPictures/laptop.png">
-                </div>
+            <!-- Text over slideshow -->
             <div class="text-box">
                 <h1> CARE BEAR </h1>
                 <p> Medical Data Synthesis </p>
@@ -57,12 +67,15 @@
     
     <!-- Description -->
     <section class="description" style="max-width:600px text-align=center">
+        <!-- Slogan -->
         <p class="slogan"><i> Need some care? Ask our bear! </i></p>
         <br>
+        <!-- Introduction -->
         <p class="text"> Welcome to Care Bear, your medical assistant here to aid you with your medical needs! </p>
         <br>
     </section>
     
+    <!-- Footer -->
     <footer>
         <p> Bear-ing the Future of Healthcare! </p>
     </footer>

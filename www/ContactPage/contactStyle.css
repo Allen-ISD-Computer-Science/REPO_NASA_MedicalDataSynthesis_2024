@@ -10,6 +10,7 @@ body {
   
 }
 
+/* Sidebar/menu styling */ 
 .sidenav {
   height: 100%;
   width: 0;
@@ -23,6 +24,7 @@ body {
   padding-top: 60px;
 }
 
+/* Navigation links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -32,10 +34,12 @@ body {
   transition: 0.3s;
 }
 
+/* Hover effect */ 
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
+/* Close button */
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -44,6 +48,7 @@ body {
   margin-left: 50px;
 }
 
+/* For smaller screens */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -59,6 +64,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+/*Submit button */
 input[type=submit] {
   background-color: #8EACCD;
   color: white;
@@ -67,6 +73,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
+/* Hover effect for submit button */
 input[type=submit]:hover {
   background-color: #8EACCD;
 }
@@ -81,7 +88,7 @@ input[type=submit]:hover {
   padding: 10px;
   max-height: 85%;
   overflow-y: scroll;
-
+  
 }
 
 /* Create two columns that float next to eachother */
