@@ -80,9 +80,14 @@ body.show-chatbot .chatbot-toggler span:last-child {
 
 .chatbot {
     position: fixed;
+    right: 3%;
+    bottom: 15%;
+    width: 60%;
+    /*
     right: 30px;
     bottom: 90px;
     width: 880px;
+    */
     background: #fff;
     border-radius: 15px;
     overflow: hidden;
@@ -91,7 +96,7 @@ body.show-chatbot .chatbot-toggler span:last-child {
     box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
                 0 32px 64px -48px rgba(0, 0, 0, 0.5);
     transition: all 0.1s ease;
-    
+
 }
 
 body.show-chatbot .chatbot {
@@ -226,6 +231,7 @@ header h2 {
     visibility: visible;
 }
 
+
 @media (max-width: 490px) {
     .chatbot-toggler {
         right: 20px;
@@ -239,6 +245,7 @@ header h2 {
         border-radius: 0;
         width: 100%;
     }
+   
 
     .chatbot .chatbox {
         height: 90%;
@@ -253,6 +260,7 @@ header h2 {
         display: block;
     }
 }
+ 
 
 .footer {
     position: fixed;
