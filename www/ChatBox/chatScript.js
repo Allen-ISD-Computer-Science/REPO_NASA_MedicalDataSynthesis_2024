@@ -2,17 +2,17 @@
 //Function to open sidebar/menu
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
-  }
-  
-  function closeNav() {
+}
+
+function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-  }
+}
 
 //Only displays user input 
-  /*
-  const chatInput = document.querySelector(".chat-input textarea");
-  const sendChatBtn = document.querySelector(".chat-input span");
-  const chatbox = document.querySelector(".chatbox");
+/*
+const chatInput = document.querySelector(".chat-input textarea");
+const sendChatBtn = document.querySelector(".chat-input span");
+const chatbox = document.querySelector(".chatbox");
 
 let userMessage;
 
@@ -27,13 +27,13 @@ const createChatLi = (message, className) => {
 const handleChat = () => {
     userMessage = chatInput.value.trim(); // Get user entered message and remove extra whitespace
     if(!userMessage) return;
-
+    
     chatbox.appendChild(createChatLi(userMessage, "outgoing"));
     setTimeout(() => {
         chatbox.appendChild(createChatLi("Thinking...", "incoming"));
-
+        
     }, 600);
-
+    
 }
 
 sendChatBtn.addEventListener("click", handleChat);
@@ -64,7 +64,7 @@ const createChatLi = (message, className) => {
 const generateResponse = (chatElement) => {
     const API_URL = "https://api.openai.com/v1/chat/completions";
     const messageElement = chatElement.querySelector("p");
-
+    
     // Define the properties and message for the API request
     const requestOptions = {
         method: "POST",
@@ -80,7 +80,7 @@ const generateResponse = (chatElement) => {
             ],
         })
     }
-
+    
     // Send POST request to API, get response and set the reponse as paragraph text
     fetch(API_URL, requestOptions).then(res => res.json()).then(data => {
         messageElement.textContent = data.choices[0].message.content.trim();
@@ -91,13 +91,14 @@ const generateResponse = (chatElement) => {
 }
 
 const handleChat = () => {
-    userMessage = chatInput.value.trim(); // Get user entered message and remove extra whitespace
+    userMessage = chatInput.value.trim(); 
+    // Get user entered message and remove extra whitespace
     if(!userMessage) return;
-
+    
     // Clear the input textarea and set its height to default
     chatInput.value = "";
     chatInput.style.height = `${inputInitHeight}px`;
-
+    
     // Append the user's message to the chatbox
     chatbox.appendChild(createChatLi(userMessage, "outgoing"));
     chatbox.scrollTo(0, chatbox.scrollHeight);

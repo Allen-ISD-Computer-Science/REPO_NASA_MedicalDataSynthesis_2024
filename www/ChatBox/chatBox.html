@@ -3,20 +3,27 @@
 <head>
     <meta charset="utf-8">
     <title> Chatbot</title>
+    <!-- Links to external sheets -->
     <link rel="stylesheet" href="chatStyle.css">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width" , initial-scale="1">
-
     <script src="chatScript.js" defer></script>
-
+    <!-- Locks aspect ratio -->
+    <meta name="viewport" content="width=device-width" , initial-scale="1">
+    
+    
 </head>
 <body>
     
+    <!-- Chatbot Container -->
     <div class="chatbot">
         <header>
+            <!-- Title -->
             <h2>Chatbot</h2>
+            <!-- Close button -->
             <span class="close-btn material-symbols-outlined">close</span>
         </header>
+        
+        <!-- Chatbox -->
         <ul class="chatbox">
             <li class="chat incoming">
                 <span class="material-symbols-outlined">smart_toy</span>
@@ -25,26 +32,33 @@
             </li>
         </ul>
         <div class="chat-input">
+            <!-- Text area for message input -->
             <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+            <!-- Send Button -->
             <span id="send-btn" class="material-symbols-rounded">send</span>
         </div>
     </div>
-
+    
+    <!-- Sidebar/menu -->
     <div id="mySidenav" class="sidenav">
+        <!-- Close button -->
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> <img src="../Pictures/ExitIcon.png" width="20" height="20"> </a>
+        <!-- Menu Links -->
         <a href="../index.html">Home</a>
         <a href="../aboutPage/about.html">About</a>
         <a href="chatBox.html">Chat Box</a>
         <a href="../ContactPage/contact.html">Contact</a>
-      </div>
-      
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()"> <img src="../Pictures/SideBarIcon.png" width="50" height="50"> </span>
-
-
-      <p class="footer"> Warning: This is not a permanent solution. Seek medical assistance if symptoms continue or worsen. </p>
-        <br>
-       
-      <img src="../Pictures/teddyBear.png" width="400" height="500" style="float:left"> </a>
+    </div>
+    
+    <!-- Menu icon to open sidebar -->
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()"> <img src="../Pictures/SideBarIcon.png" width="50" height="50"> </span>
+    
+    
+    <!-- Footer message -->
+    <p class="footer"> Warning: This is not a permanent solution. Seek medical assistance if symptoms continue or worsen. </p>
+    <br>
+    
+    <img src="../Pictures/teddyBear.png" width="400" height="500" style="float:left"> </a>
 </body>
 
 </html>

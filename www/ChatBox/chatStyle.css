@@ -9,6 +9,7 @@ body {
     background: #f7efe8;
 }
 
+/* Sidebar/menu styles */
 .sidenav {
     height: 100%;
     width: 0;
@@ -20,26 +21,31 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
-  .sidenav a {
+}
+
+/* Navigation Links */
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #ffffff;
     display: block;
     transition: 0.3s;
-  }
-  .sidenav a:hover {
+}
+
+/* Hover effect */
+.sidenav a:hover {
     color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
+}
+
+/* Close button */
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
+}
 
 .chatbot-toggler {
     position: fixed;
@@ -77,26 +83,21 @@ body.show-chatbot .chatbot-toggler span:last-child {
     opacity: 1;
 }
 
-
+/* Chatbot container style */
 .chatbot {
     position: fixed;
     right: 3%;
     bottom: 15%;
     width: 60%;
-    /*
-    right: 30px;
-    bottom: 90px;
-    width: 880px;
-    */
     background: #fff;
     border-radius: 15px;
     overflow: hidden;
     transform: scale (0.5);
     transform-origin: bottom right;
     box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
-                0 32px 64px -48px rgba(0, 0, 0, 0.5);
+    0 32px 64px -48px rgba(0, 0, 0, 0.5);
     transition: all 0.1s ease;
-
+    
 }
 
 body.show-chatbot .chatbot {
@@ -105,6 +106,7 @@ body.show-chatbot .chatbot {
     transform: scale(1);
 }
 
+/* Chatbot header */
 .chatbot header {
     padding: 16px 0;
     position: relative;
@@ -127,12 +129,14 @@ header h2 {
     font-size: 1. 4rem;
 }
 
+/* Chatbox display */
 .chatbot .chatbox {
     overflow-y: auto;
     height: 510px;
     padding: 30px 20px 100px;
 }
 
+/* Custom scrollbar */
 .chatbot :where(.chatbox, textarea)::-webkit-scrollbar {
     width: 6px;
 }
@@ -152,6 +156,7 @@ header h2 {
     list-style: none;
 }
 
+/* Message Display */ 
 .chatbox .outgoing {
     margin: 20px 0;
     justify-content: flex-end;
@@ -232,12 +237,13 @@ header h2 {
 }
 
 
+/* Displauy for smaller screens */
 @media (max-width: 490px) {
     .chatbot-toggler {
         right: 20px;
         bottom: 20px;
     }
-
+    
     .chatbot {
         right: 0;
         bottom: 0;
@@ -245,22 +251,22 @@ header h2 {
         border-radius: 0;
         width: 100%;
     }
-   
-
+    
+    
     .chatbot .chatbox {
         height: 90%;
         padding: 25px 15px 100px;
     }
-
+    
     .chatbot .chat-input {
         padding: 5px 15px;
     }
-
+    
     .chatbot header span {
         display: block;
     }
 }
- 
+
 
 .footer {
     position: fixed;
@@ -271,4 +277,4 @@ header h2 {
     color: white;
     text-align: center;
     padding: 20px;
- }
+}

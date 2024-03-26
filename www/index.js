@@ -1,3 +1,4 @@
+//Sidebar/menu functions
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
   }
@@ -10,6 +11,7 @@ function openNav() {
 var myIndex = 0;
 carousel();
 
+//Starts slideshow
 function carousel() {
   var i;
   var x = document.getElementsByClassName("mySlides");
@@ -19,11 +21,10 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 4000);    
+  setTimeout(carousel, 4000); //Changes image every 4 seconds   
 }
 
 // Used to toggle the menu on small screens when clicking on the menu button
-
 function myFunction() {
   var x = document.getElementById("navDemo");
   if (x.className.indexOf("show") == -1) {

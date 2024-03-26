@@ -7,6 +7,7 @@ body {
   background: #f7efe8;
 }
 
+/* Header Styling */
 .header{
   min-height: 100vh;
   width: 100%;
@@ -16,6 +17,7 @@ body {
   position: relative;
 }
 
+/* Slide show images styling */
 .headerImage {
   object-fit: cover;
   position: relative;
@@ -24,7 +26,6 @@ body {
   height: 100vh;
   
 }
-
 
 /* Style for tab */
 .sidenav {
@@ -40,6 +41,7 @@ body {
   padding-top: 60px;
 }
 
+/* Navigation Links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -49,10 +51,12 @@ body {
   transition: 0.3s;
 }
 
+/* Hover effect */
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
+/* Close button */
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -61,6 +65,7 @@ body {
   margin-left: 50px;
 }
 
+/* Text area Styling */
 .text-box{
   width: 90%;
   color: #fff;
@@ -82,6 +87,7 @@ body {
   transition: 0.5s;
 }
 
+/* Description Styling */
 .description {
   text-align: center;
   padding-top: 150px;                                                                                     
@@ -92,9 +98,10 @@ body {
   font-size: 19px;                                                                                        
   letter-spacing: 1px;                                                                                    
   word-spacing: 5px;   
-                                                                               
+  
 }
 
+/* Footer */
 footer {
   text-align: center;
   font-weight: 500;
