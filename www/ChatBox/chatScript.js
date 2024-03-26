@@ -1,4 +1,5 @@
 
+//Function to open sidebar/menu
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
   }
@@ -7,8 +8,7 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
 
-
-  //Only Prints input 
+//Only displays user input 
   /*
   const chatInput = document.querySelector(".chat-input textarea");
   const sendChatBtn = document.querySelector(".chat-input span");
@@ -39,6 +39,7 @@ const handleChat = () => {
 sendChatBtn.addEventListener("click", handleChat);
 */
 
+//Variables for chatbot toggler and chatbox functionallity
 const chatbotToggler = document.querySelector(".chatbot-toggler");
 const closeBtn = document.querySelector(".close-btn");
 const chatbox = document.querySelector(".chatbox");
@@ -59,6 +60,7 @@ const createChatLi = (message, className) => {
     return chatLi; // return chat <li> element
 }
 
+//Generates response from API
 const generateResponse = (chatElement) => {
     const API_URL = "https://api.openai.com/v1/chat/completions";
     const messageElement = chatElement.querySelector("p");

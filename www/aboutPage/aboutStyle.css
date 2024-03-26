@@ -13,6 +13,7 @@ body {
   background-color: #8EACCD;
 }
 
+/* Side bar/menu */
 .sidenav {
   height: 100%;
   width: 0;
@@ -26,6 +27,8 @@ body {
   padding-top: 60px;
   line-height: 1.2;
 }
+
+/* Navigation Links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -34,10 +37,13 @@ body {
   display: block;
   transition: 0.3s;
 }
+
+/* Hover effet */
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
+/* Close button */
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -63,15 +69,11 @@ body {
 
 
 .subject {
-color: #8EACCD;
+  color: #8EACCD;
 }
 
-/*.content {
-margin-left:10px;
-margin-right:10px;
-}*/
 
 .container {
-margin-top:75px;
+  margin-top:75px;
 }
 
