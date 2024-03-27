@@ -2,7 +2,7 @@ body{
   font-family: 'Droid Serif', serif;
   font-size: 14px;
   color: #2f2f2f;
-  background-color: #f7efe8;
+  background-color: #fdfdfd;
 }
 
 /* Center images*/
@@ -69,7 +69,7 @@ p{
 }
 .title{
 
-  background-color: #8EACCD;
+  background-color: #f7efe8;
   color: white;
 }
 .head{
@@ -125,7 +125,7 @@ p{
   font-family: 'Playfair Display', serif;
   display: block;
   margin: 0 auto;
-  
+  color: #8EACCD;
   
 }
 .collumn .headline.hl1{
@@ -133,6 +133,7 @@ p{
   font-size: 30px;
   text-transform: uppercase;
   padding: 10px 0 10px 0;
+  color: #8EACCD
   
 }
 
@@ -143,6 +144,7 @@ p{
   font-size: 36px;
   box-sizing: border-box;
   padding: 10px 0 10px 0;
+  color: #8EACCD;
 }
 
 
@@ -153,6 +155,7 @@ p{
   font-style: italic;
   box-sizing: border-box;
   padding: 10px 0 10px 0;
+  color: #8EACCD;
 }
 
 
