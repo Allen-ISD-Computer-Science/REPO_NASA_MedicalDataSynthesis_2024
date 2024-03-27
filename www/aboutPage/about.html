@@ -1,95 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title> About </title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="aboutStyle.css">
-
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="aboutStyle.css">
+    <title> About Us </title>
+    <meta name="viewport" content="width=device-width">
+    
 </head>
-
 <body>
-
-<!-- Sidebar/menu -->
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> <img src="../Pictures/ExitIcon.png" width="20" height="20"> </a>
-  <a href="../index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="../ChatBox/chatBox.html">Chat Box</a>
-  <a href="../ContactPage/contact.html">Contact</a>
-</div>
-
-<span style="font-size:30px;cursor:pointer" onclick="openNav()"> <img src="../Pictures/SideBarIcon.png" width="50" height="50"> </span>
-
-<img src="../Pictures/CareBearLogo.png" width="200" height="200" style="float:right; padding-right: 100px;"> </a>
-
-
-<!-- !PAGE CONTENT! -->
-<div class="content">
-
-  <!-- Header -->
-  <div class="header" id="top">
-    <h1 class="title" style="padding-left: 100px;"><b>About</b></h1>
-    <h1 class="subtitle" style="padding-left: 100px;"><b>Us</b></h1> 
+  
+  <div  class="title">
+    <!-- Sidebar/menu -->
+    <div id="mySidenav" class="sidenav">
+      <!-- Close button -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> <img src="../Pictures/ExitIcon.png" width="20" height="20"> </a>
+      <!-- Menu Links -->
+      <a href="../index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="../ChatBox/chatBox.html">Chat Box</a>
+      <a href="../ContactPage/contact.html">Contact</a>
   </div>
   
-  <!-- Introduction -->
-  <div class="container" id="intro" >
-    <div class="blueBackground">
-      <img src="../Pictures/groupPic.png" width="45%" height="55%" style="float:right">
-    <h1 class="subject" style="color:white;"><b>Introduction</b></h1>
-    <hr class="whiteLines"> 
-    <p>Welcome to Care Bear, your medical assistant here to aid you with your medical needs!
-    </p>
-  </div>
-  </div>
+  <!-- Menu icon to open sidebar -->
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()"> <img src="../Pictures/SideBarIcon.png" width="50" height="50"> </span>
 
-  <!-- The Problem -->
-  <div class="container" id="problem">
-    <h1 class="subject" style="padding-left: 100px; padding-right: 100px;"><b>The Problem</b></h1>
-    <hr class="blueLines">
-    <p style="padding-left: 100px; padding-right: 100px;"> One of the primary challenges in space exploration is the inherent risk to the health and well-being of astronauts operating in isolated and extreme environments. Medical emergencies or health issues can arise unpredictably, requiring timely and accurate intervention. Traditional methods of monitoring and diagnosing medical conditions in space are limited by factors such as communication delays, equipment constraints, and the expertise of onboard medical personnel. Additionally, the vast amount of medical data generated during space missions can overwhelm human capabilities for analysis and decision-making. Without efficient means of synthesizing and interpreting this data, astronauts may face increased risks and compromised health outcomes during their missions. Therefore, the need for advanced AI solutions to integrate and analyze medical data becomes crucial for ensuring the safety and success of space exploration endeavors.
-    </p>
-  </div>
+    <div class="head">
+      
+        <div class="headerobjectswrapper">
 
-  <!-- Mission Section -->
-  <div class="container" id="goal">
-    <div class="blueBackground">
-    <h1 class="subject" style="color:white;"><b>Our Mission</b></h1>
-    <hr class="whiteLines">
-    <p> Our project aims to transform healthcare through the utilization of AI technology, enabling the rapid and precise synthesis and analysis of a variety of medical data inputs. Our vision encompasses a future where medical professionals have access to an integrated platform that offers immediate risk assessment and tailored medical guidance based on individual patient data. Eventually, this platform will evolve to develop training models and provide recommendations to address medical challenges. By merging advanced technology with comprehensive data analysis, our objective is to equip healthcare practitioners with actionable insights, empowering them to make informed decisions, elevate patient care standards, and ultimately, enhance health outcomes on a global scale. 
-    </p>
-  </div>
-</div>
-
-  <!-- How to Use section -->
-  <div class="container" id="use">
-    <h1 class="subject" style="padding-left: 100px; padding-right: 100px;"><b>How to Use </b></h1>
-    <hr class="blueLines">
-    <p style="padding-left: 100px; padding-right: 100px;"> Care Bear offers a user-friendly interface where individuals can input their symptoms into a chat box. To access the chat box, click on the three bars on the top left to view the full menu and click on “Chat Box” to visit the chat box page. From there, users can input their symptoms to recieve medical assistance. To utilize the teddy bear, users can simply talk to him. The bear will then verbally communicate with the user, telling them their diagnosis and give temporary solutions. By utilizing a chat box or communicating to the bear, users will receive immediate guidance and solutions to address their health concerns. 
-    </p>
-  </div>
-
-  <!-- How it Works section -->
-  <div class="container" id="work">
-    <div class="blueBackground">
-    <h1 class="subject" style="color:white;"><b>How it Works</b></h1>
-    <hr class="whiteLines">
-    <p> This innovative platform employs advanced AI algorithms and draws upon vast medical databases to analyze the symptoms provided by the user. The algorithms sift through the data, cross-referencing symptoms with known medical conditions and treatment protocols to generate personalized recommendations tailored to the user's specific situation. These recommendations are then presented to the user in real-time within the chat interface, offering temporary solutions to alleviate discomfort or manage their condition effectively. Additionally, the platform may offer guidance on when it's advisable to seek professional medical attention for further evaluation and treatment. 
-    </p>
-  </div>
-</div>
-
-
-</div>
-<br>
-<script>
-  function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  }
+            <div class="leftSideBox"><span style="font-style: italic;"> <img src="../Pictures/CareBearLogo.png" width="100" height="100"> </a>
+            </span></div>
+            
+            <header> About Us </header>
+            
+          </div>
+        </div>
+        </div>
+        
+        <div class="subhead"> Welcome to Care Bear, your medical assistant here to aid you with your medical needs! </div>
+    </div>
+    <div class="content">
+        <div class="collumns">
+            <div class="collumn">
+                <div class="head"><span class="headline hl3">Meet The Team</span><p></p></div>
+                <img src="../Pictures/Aidan.png"> <p><img src="../Pictures/Jana.png"> </p> <p><img src="../Pictures/Kripa.png"> </p> <p><img src="../Pictures/Sophia.png"> </p> <p><img src="../Pictures/Sophie.png"> </p>  <p><img src="../Pictures/Zoe.png"> </p></p></div>
+                <div class="collumn">
+                    <div class="head"><span class="headline hl5">The Problem</span><p></p></div>
+                    One of the primary challenges in space exploration is the inherent risk to the health and well-being of astronauts operating in isolated and extreme environments. Medical emergencies or health issues can arise unpredictably, requiring timely and accurate intervention. Traditional methods of monitoring and diagnosing medical conditions in space are limited by factors such as communication delays, equipment constraints, and the expertise of onboard medical personnel. Additionally, the vast amount of medical data generated during space missions can overwhelm human capabilities for analysis and decision-making. Without efficient means of synthesizing and interpreting this data, astronauts may face increased risks and compromised health outcomes during their missions. Therefore, the need for advanced AI solutions to integrate and analyze medical data becomes crucial for ensuring the safety and success of space exploration endeavors.</p>
+                    <figure class="figure">
+                        <img class="media" src="pic.png" alt="">
+                    </figure>
+                    
+                    
+                </div>
+                <div class="collumn"><div class="head"><span class="headline hl1">Mission Statement</span><p></p></div>Partially, but it also obeys your commands. Hey, Luke! May the Force be with you. I have traced the Rebel spies to her. Now she is my only link to finding their secret base.</p>
+                <figure class="figure">
+                    <img class="media" src="pic.png" alt="">
+                </figure>
+                
+                </div>
+                <div class="collumn"><div class="head"><span class="headline hl3"> How to Use chatbox </span><p></p></div><p>Care Bear offers a user-friendly interface where individuals can input their symptoms into a chat box. To access the chat box, click on the three bars on the top left to view the full menu and click on “Chat Box” to visit the chat box page. By utilizing a chat box, users will receive immediate guidance and temporary solutions to address their health concerns. </p></div>
+                <div class="collumn"><div class="head"><span class="headline hl1"> How it Works </span><p></p></div><p> This innovative platform employs advanced AI algorithms and draws upon vast medical databases to analyze the symptoms provided by the user. The algorithms sift through the data, cross-referencing symptoms with known medical conditions and treatment protocols to generate personalized recommendations tailored to the user's specific situation. These recommendations are then presented to the user in real-time within the chat interface, offering temporary solutions to alleviate discomfort or manage their condition effectively. Additionally, the platform may offer guidance on when it's advisable to seek professional medical attention for further evaluation and treatment. </p>
+                
+                </div>
+            </div>
+        </div>
+        
+         <!-- Side bar menur -->
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
   </script>
-</body>
-</html>
+    </body>
+    </html>
+    

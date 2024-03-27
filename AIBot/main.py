@@ -8,7 +8,7 @@ import pyttsx3
 import time
 import pygame
 
-#F unction to play an audio file
+# Function to play an audio file
 def play_audio_file(file_path):
     pygame.init()
     pygame.mixer.init()
